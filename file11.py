@@ -15,9 +15,9 @@ print(mangrong) # check
 print(mangchuaso1) # check
 while e<=len(mangchuaso1):
        for a in mangrong:
-           if a==mangchuaso1[e] :
-               mangchuaso1[e]='0';
-               mangrong.remove(a)
+           if a==mangchuaso1[e] : 
+               mangchuaso1[e]='0';    # thay đổi giá trị của số nếu số đó trong mangrong là mảng cần loại bỏ
+               mangrong.remove(a)     # do đã thay đổi giá trị đó trong mảng chính r nên xóa giá trị đó trong mảng các số cần loại bỏ
      
        e+=1
     
